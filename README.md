@@ -1,10 +1,11 @@
-# Web Starter
+# Typography Only for Peanuts
 
-> Computers are dumb. Humans make them smart.
+>small impactful line from content
+The timeless appeal of the Peanuts characters lies in their relatability and enduring charm, making them beloved by generations of readers worldwide.
 
-Starter (boilerplate) for all future projects.
+A Project to experiment with CSS typography
 
-## Why Does This Exist?
-* Don't start with nothing
-* Common boilerplate for web projects
-* I am a human being who makes mistakes
+# CSS Concepts
+* typography
+* box model
+* CSS variables
