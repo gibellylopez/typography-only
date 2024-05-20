@@ -1,3 +1,84 @@
-body {
-    background: #ffffe9
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+/* ✅  Style Guide via CSS Variables*/
+:root{
+  --color1: #F04E29;
+  --color2: #0B476F;
+  --color3: #FFD500;
+  --color4: #3E230B;
+  --color5: #6aa84f;
+  --primaryfont: "Outfit";
+}
+
+body{
+  background: Azure;
+  font-family: var(--primaryfont); 
+}
+
+p {
+  color: var(--color4)
+}
+
+h1 {
+  color: var(--color4);
+}
+
+h2 {
+  color: var(--color2);
+}
+
+h3 {
+  color: var(--color5)
+}
+
+h4 {
+  color: var(--color5)
+}
+
+li {
+  color: var(--color5);
+}
+
+blockquote {
+  border-left: solid 7px var(--color1);
+  color: var(--color4);
+  padding-left: 20px;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  background: #FEFBEC;
+  padding: 70px;
+  
+  border: solid 1.5px var(--color4);
+}
+
+span {
+  background: var(--color3);
+  margin: 15px;
+  padding: 20px;
+  
+  position: relative;
+  top: -10px;
+    
+  font-size: 3rem;
+  float: left;
+}
+
+/* Parent */
+main{
+  position: relative;
+}
+
+/* Parent */
+
+h1 {
+  background: var(--color3);
+  padding: 4px;
+  
+  top: -10px;
+  left: 50px;
+  position: absolute;
 }
